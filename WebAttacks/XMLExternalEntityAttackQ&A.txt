@@ -1,0 +1,19 @@
+XML External Entity Q&A!
+
+An XML External Entity attack occurs when an attacker exploits improperly configured XML parsers to access local files or execute malicious code. 
+
+What parameter affected XXE?
+By analyzing the request payload, we determine that the parameter affected by XXE injection was data.
+
+
+What file did that attacker try to read using XXE?
+
+ The logs indicate an attempt to retrieve a sensitive system file: '/etc/shadow' which is a linux file containing hashes of passwords.
+
+What was the attacker's IP address?
+
+94.23.33.25
+
+
+The strategies I would suggest implementing is to disable external entities with XML (with something like libxml_disable_entity_loader(true);), sanitize input, utilize secure parsers, and implement a whitelist of entities that can make changes with XML.
+

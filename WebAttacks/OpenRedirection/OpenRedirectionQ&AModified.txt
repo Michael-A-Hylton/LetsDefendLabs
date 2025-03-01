@@ -1,0 +1,17 @@
+Open Redirection Q&A!
+
+Open Redirection attack occurs when a vulnerable web application allows an attacker to manipulate a URL parameter to redirect users to malicious websites.
+
+Given the log file, find....
+
+What date did the exploitation phase of Open Redirection start? Format: dd/MMM/yyyy HH:mm:ss
+27/Apr/2023 15:45:22
+
+
+What is the IP address of the attacker who performed the Open Redirect attack?
+198.51.100.17 attempted to exploit the Open Redirect vulnerability by injecting a malicious domain (malicious.com) into the redirect parameter.
+
+What was the parameter that was attacked?
+redirect and used encoded variations like %2f (/) and %5c (\) to bypass basic filtering mechanisms.
+
+In order to prevent future Open Redirect Attacks, we should sanitize input, whitelist appropriate characters, and ensure that only authorized users are allowed to trigger redirects

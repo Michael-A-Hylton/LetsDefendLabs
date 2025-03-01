@@ -1,0 +1,8 @@
+203.0.113.42 - - [26/Apr/2023:19:45:12 +0000] "GET /blog?article=15 HTTP/1.1" 200 2542 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+203.0.113.42 - - [26/Apr/2023:19:45:14 +0000] "GET /blog?article=8 HTTP/1.1" 200 2984 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+198.51.100.17 - - [27/Apr/2023:15:45:22 +0000] "GET /blog?redirect=%2f%09%2fmalicious.com HTTP/1.1" 400 42 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+198.51.100.17 - - [27/Apr/2023:15:45:22 +0000] "GET /blog?redirect=%2f%5cmalicious.com HTTP/1.1" 400 42 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+198.51.100.17 - - [27/Apr/2023:15:45:23 +0000] "GET /blog?redirect=%2f%2f%2f%09%2fmalicious.com HTTP/1.1" 400 42 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+198.51.100.17 - - [27/Apr/2023:15:45:23 +0000] "GET /blog?redirect=%2f%2f%5cmalicious.com HTTP/1.1" 400 42 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+198.51.100.17 - - [27/Apr/2023:15:45:23 +0000] "GET /blog?redirect=%2f%2f%2f%2f%09%2fmalicious.com HTTP/1.1" 400 42 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+

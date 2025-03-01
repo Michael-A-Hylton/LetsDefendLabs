@@ -1,0 +1,7 @@
+203.0.113.25 - - [26/Oct/2015:15:57:42 +0000] "GET /user_login HTTP/1.1" 200 10543 "http://example.com/" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+203.0.113.25 - - [26/Oct/2015:15:57:43 +0000] "POST /user_login HTTP/1.1" 200 16806 "http://example.com/user_login" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+198.51.100.99 - - [26/Oct/2015:16:07:26 +0000] "GET /help/xml-parsing-guide HTTP/1.1" 200 36440 "http://example.com/" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+198.51.100.99 - - [26/Oct/2015:16:07:32 +0000] "POST /api/xml-parser HTTP/1.1" 200 10716 "http://example.com/xml-endpoint" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+198.51.100.99 - - [26/Oct/2015:16:07:38 +0000] "POST /api/xml-parser HTTP/1.1" 200 16806 "http://example.com/xml-endpoint" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+192.0.2.88 - - [26/Oct/2015:16:35:47 +0000] "GET /help/xml-security HTTP/1.1" 200 24319 "http://example.com/" "Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0"
+

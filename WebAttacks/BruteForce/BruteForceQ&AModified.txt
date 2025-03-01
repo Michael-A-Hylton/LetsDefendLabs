@@ -1,0 +1,15 @@
+Brute Force Q&A!
+
+A web server has detected multiple failed login attempts from a single IP address over a short time frame. Given the provided logs...
+
+What is the attacker's user agent?		
+	A review of authentication logs shows repeated login attempts originating from a single IP address (203.0.113.99) and is submitting multiple failed test (as indicated by the log attempts) we can conclude the agent is:
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+
+What is the IP address of the attacker who performed the Brute Forcing attack?
+	As identified in previous question, 203.0.113.99
+	
+What date did the Brute Forcing successfully complete to login form? Format: dd/MMM/yyyy HH:mm:ss?
+	The first successful login attempt (as indicated by status code 301) is 26/Apr/2023 21:44:03.
+	
+The best strategies for addressing such an attack would be to implement MFA, CAPTCHA, a WAF, and a limit to the rate of login attempts

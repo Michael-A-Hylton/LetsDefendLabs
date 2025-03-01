@@ -1,0 +1,10 @@
+192.168.45.12 - - [24/Apr/2023:23:31:19 +0000] "GET /article?id=42 HTTP/1.1" 200 3096 "http://example.com/article/view?id=42" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+192.168.45.12 - - [24/Apr/2023:23:31:19 +0000] "GET /missing-page HTTP/1.1" 404 31 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+192.168.45.12 - - [24/Apr/2023:23:31:44 +0000] "GET / HTTP/1.1" 200 2134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+192.168.45.12 - - [24/Apr/2023:23:31:44 +0000] "GET /assets/css/styles.css HTTP/1.1" 200 1240 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+192.168.45.12 - - [24/Apr/2023:23:31:44 +0000] "GET /static/js/app.js HTTP/1.1" 200 4488 "http://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+203.0.113.99 - - [26/Apr/2023:21:44:03 +0000] "POST /auth/login HTTP/1.1" 200 947 "http://example.com/auth" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+203.0.113.99 - - [26/Apr/2023:21:44:03 +0000] "POST /auth/login HTTP/1.1" 302 0 "http://example.com/auth" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+203.0.113.99 - - [26/Apr/2023:21:44:18 +0000] "POST /comments/new HTTP/1.1" 302 0 "http://example.com/article?id=15" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+203.0.113.99 - - [26/Apr/2023:21:44:18 +0000] "POST /comments/new HTTP/1.1" 302 0 "http://example.com/article?id=15" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.50 Safari/537.36"
+

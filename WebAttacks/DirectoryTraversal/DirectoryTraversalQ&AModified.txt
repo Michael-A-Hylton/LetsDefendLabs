@@ -1,0 +1,17 @@
+Directory Traversal Q&A!
+
+When an attacker manipulates input parameters to access unauthorized files and directories on a web server, it is called Directory Traversal. By injecting special character sequences like ../, %2e%2e%2f, %5c, they are able to navigate files on the server hosting the website.
+
+
+What date did the exploitation phase of Directory Traversal start? Format: dd/MMM/yyyy HH:mm:ss
+We can see that at 23/Apr/2023 00:16:57 using %2e%2e%2f and %2e%2e%5c, and given the 200 code, it was most likely a successful traversal.
+
+What is the IP address of the attacker who performed the Directory Traversal attack?
+198.51.100.27
+
+
+What was the parameter that attacked?
+uid
+
+
+To prevent directory traversal attacks in the future, I would recommend sanitizing input, limit the server's access to the required files and directories, and create a whitelist of characters allowed for input to prevent such traversals.
